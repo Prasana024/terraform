@@ -1,9 +1,10 @@
 variable "region" {
   default = "us-east-1"
 }
+#Get the access key and secret key generated from AWS portal
 provider "aws" {
-  access_key = "AKIA3MS6WOEVVOQMGP5D"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 variable "customVPC" {
   default = "MyowncustomVPC"
